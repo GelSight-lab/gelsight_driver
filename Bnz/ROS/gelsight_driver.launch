@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<launch>
+<group ns="gelsight">
+    <node pkg="libuvc_camera" type="camera_node" name="gelcam">
+        <param name="vendor" value="Logitech"/>
+        <!-- Image size and type -->
+        <param name="width" value="640"/>
+        <param name="height" value="480"/>
+        <!-- choose whichever uncompressed format the camera supports: -->
+        <param name="video_mode" value="uncompressed"/> <!-- or yuyv/nv12/jpeg -->
+        <param name="frame_rate" value="30"/>
+        <param name="auto_exposure" value="0"/>
+        <param name="auto_white_balance" value="false"/>
+        <param name="exposure_absolute" value="0.005"/>
+        <!-- <param name="exposure_absolute" value="0.002"/> -->
+         <!-- <param name="exposure_absolute" value="0.0035"/>  -->
+    </node>
+</group>
+</launch>
