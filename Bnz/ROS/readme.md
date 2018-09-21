@@ -1,5 +1,6 @@
 # Raw input
 Create the catkin workspace (reference: http://wiki.ros.org/catkin/Tutorials/create_a_workspace)
+
 Install libuvc_camera (http://wiki.ros.org/libuvc_camera)
 
 Create Gelsight package:
