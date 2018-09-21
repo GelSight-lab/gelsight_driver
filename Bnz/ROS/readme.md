@@ -3,7 +3,7 @@ Create the catkin workspace (reference: http://wiki.ros.org/catkin/Tutorials/cre
 
 Create Gelsight package:
 ```
-catkin_create_pkg gelsight std_msgs raspy roscpp
+catkin_create_pkg gelsight std_msgs rospy roscpp
 catkin_make
 ```
 
