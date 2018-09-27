@@ -19,6 +19,6 @@ It will pop out interactive window to select the circle to cover the ball. It’
 
 ### Keyboard command: 
 
-* +/- keys: enlarge/shrink the circle
-* up/down/left/right arrow keys: move the circle
+* +/-: enlarge/shrink the circle
+* up/down/left/right: move the circle
 * ESC: next image.
