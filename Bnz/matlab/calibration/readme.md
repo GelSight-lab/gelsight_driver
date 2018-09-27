@@ -5,7 +5,7 @@
 
 ### 1. Create a folder (e.g. cali_180110) containing: 
 	frame0.jpg 
-	Im\_\*.jpg 
+	Im_*.jpg 
 
 The frame0 is the blank GelSight image without any touch. The Im_*.jpg is the GelSight image with a ball pressing on it. This is to build up the lookup table from RGB to gradients. More images on different areas will make the lookup table more precise.
 
