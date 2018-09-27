@@ -14,4 +14,10 @@ Use a caliper to press multiple times on the GelSight and counting the correspon
 
 3. Run the calibration.m to select circle ranges.
 
-It will pop out interactive window to select the circle to cover the ball. It’s already calculated by program. The user should use keyboard input to make it more precise. Instructions: +/- keys to enlarge/shrink the circle, up/down/left/right arrow keys to move the circle, ESC key to save.
+It will pop out interactive window to select the circle to cover the ball. It’s already calculated by program. The user should use keyboard input to make it more precise. 
+
+Instructions: 
+
+* +/- keys: enlarge/shrink the circle
+* up/down/left/right arrow keys: move the circle
+* ESC: next image.
