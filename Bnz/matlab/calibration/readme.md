@@ -7,7 +7,7 @@
 	frame0.jpg 
 	Im_*.jpg 
 
-The frame0 is the blank GelSight image without any touch. The Im_*.jpg is the GelSight image with a ball pressing on it. This is to build up the lookup table from RGB to gradients. More images on different areas will make the lookup table more precise.
+The frame0 is the blank GelSight image without any touch. The Im_*.jpg is the GelSight image with a ball pressing on it. This is to build up the lookup table from RGB to gradients. About 10 images on different areas will usually be sufficient.
 
 ### 2. Calculate the Pixmm parameter, which represents how much millimeters one pixel is corresponding to. 
 
