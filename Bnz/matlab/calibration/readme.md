@@ -1,7 +1,7 @@
 
 # Calibration README
 
-## Usage:
+## Usage
 
 ### 1. Create a folder (e.g. cali_180110) containing: 
 	frame0.jpg 
@@ -23,4 +23,4 @@ Keyboard command:
 
 	* +/-: enlarge/shrink the circle
 	* up/down/left/right: move the circle
-	* ESC: next image.
+	* ESC: next image
