@@ -55,7 +55,11 @@ function capture_OpeningFcn(hObject, eventdata, handles, varargin)
 % Configure Axes preview
 axes(handles.preview);
 imaqreset;
+% If your computer has a webcam comment the line below out.
 vid = videoinput('winvideo', 1, 'RGB24_960x720');
+% For computers that have webcams:
+%vid = videoinput('winvideo', 2, 'RGB24_960x720');
+
 atobj = getselectedsource(vid);
 set(vid, 'FramesPerTrigger', 1);
 set(vid, 'TriggerRepeat', Inf);
